@@ -108,6 +108,55 @@ add_executable(ros_cpp ${SRC}) # 生成可执行文件
 
 ### 2.2 功能包组织节点
 
+1. python创建功能包
+
+```bash
+ros2 pkg create --build-type ament_python --license Apache-2.0 demo_python_pkg
+```
+
+> ros2 pkg 对应包的命令
+>
+> create是创建新的功能包
+>
+> --build-type是选取构建类型（默认是cpp的CMake）
+>
+> ament_python是要构建的类型
+>
+> demo_python_pkg是包的名字
+
+创建好包之后，在包的子目录中选取同名的文件夹创建节点,注意不需要main的入口
+
+之后在setup.py中找到entry_point写出入口：'入口名字 = 包名字.节点名字.函数名字'
+
+之后在package.xml里面添加依赖项
+
+最后利用`colcon build`构建文件，会产生三个文件夹（同级），build是中间文件，install是可执行文件，log是生成的日志
+
+
+
+cPP流程总结:
+
+```mermaid
+flowchart LR
+A([使用ros2 pkg构建一个新的包])-->B[在src下添加源文件]-->C[编写CMake文件]-->D[改动package.xml依赖项]-->E[回到项目目录]-->F[colcon make构建]-->Q[source install/setup.bash构建环境变量]
+```
+
+
+
+### 2.3 工作空间
+
+在一个文件夹下放置多个包
+
+
+
+
+
+
+
+
+
+
+
 
 
 
