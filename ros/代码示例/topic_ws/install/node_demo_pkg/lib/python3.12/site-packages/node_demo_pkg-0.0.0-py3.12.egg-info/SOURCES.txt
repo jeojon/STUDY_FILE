@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/node_demo_pkg/node_demo_pkg.egg-info/PKG-INFO
+../../build/node_demo_pkg/node_demo_pkg.egg-info/SOURCES.txt
+../../build/node_demo_pkg/node_demo_pkg.egg-info/dependency_links.txt
+../../build/node_demo_pkg/node_demo_pkg.egg-info/entry_points.txt
+../../build/node_demo_pkg/node_demo_pkg.egg-info/requires.txt
+../../build/node_demo_pkg/node_demo_pkg.egg-info/top_level.txt
+../../build/node_demo_pkg/node_demo_pkg.egg-info/zip-safe
+node_demo_pkg/__init__.py
+node_demo_pkg/pydemo.py
+resource/node_demo_pkg
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

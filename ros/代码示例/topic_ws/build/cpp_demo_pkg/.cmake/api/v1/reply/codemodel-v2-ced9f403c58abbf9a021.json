@@ -1,0 +1,70 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-4db4eccbd24e569f7433.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "cpp_demo_pkg",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "cpp_demo_pkg_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cpp_demo_pkg_uninstall-a681e948e643b1d7b148.json",
+					"name" : "cpp_demo_pkg_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-be5d3525419d2438a48e.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/jun/\u6587\u6863/\u5b66\u4e60\u6587\u4ef6/ros/\u4ee3\u7801\u793a\u4f8b/topic_ws/build/cpp_demo_pkg",
+		"source" : "/home/jun/\u6587\u6863/\u5b66\u4e60\u6587\u4ef6/ros/\u4ee3\u7801\u793a\u4f8b/topic_ws/src/cpp_demo_pkg"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

@@ -1,0 +1,32 @@
+[0.404s] Invoking command in '/home/jun/文档/学习文件/ros/代码示例/topic_ws/src/node_demo_pkg': CONDA_PROMPT_MODIFIER=(ros) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/jun/文档/学习文件/ros/代码示例/topic_ws/build/node_demo_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jun/文档/学习文件/ros/代码示例/topic_ws/install/node_demo_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/node_demo_pkg build --build-base /home/jun/文档/学习文件/ros/代码示例/topic_ws/build/node_demo_pkg/build install --record /home/jun/文档/学习文件/ros/代码示例/topic_ws/build/node_demo_pkg/install.log --install-scripts $base/lib/node_demo_pkg --single-version-externally-managed install_data
+[0.531s] running egg_info
+[0.532s] creating ../../build/node_demo_pkg/node_demo_pkg.egg-info
+[0.539s] writing ../../build/node_demo_pkg/node_demo_pkg.egg-info/PKG-INFO
+[0.539s] writing dependency_links to ../../build/node_demo_pkg/node_demo_pkg.egg-info/dependency_links.txt
+[0.539s] writing requirements to ../../build/node_demo_pkg/node_demo_pkg.egg-info/requires.txt
+[0.539s] writing top-level names to ../../build/node_demo_pkg/node_demo_pkg.egg-info/top_level.txt
+[0.539s] writing manifest file '../../build/node_demo_pkg/node_demo_pkg.egg-info/SOURCES.txt'
+[0.555s] reading manifest file '../../build/node_demo_pkg/node_demo_pkg.egg-info/SOURCES.txt'
+[0.555s] writing manifest file '../../build/node_demo_pkg/node_demo_pkg.egg-info/SOURCES.txt'
+[0.555s] running build
+[0.555s] running build_py
+[0.556s] creating /home/jun/文档/学习文件/ros/代码示例/topic_ws/build/node_demo_pkg/build
+[0.556s] creating /home/jun/文档/学习文件/ros/代码示例/topic_ws/build/node_demo_pkg/build/lib
+[0.556s] creating /home/jun/文档/学习文件/ros/代码示例/topic_ws/build/node_demo_pkg/build/lib/node_demo_pkg
+[0.556s] copying node_demo_pkg/__init__.py -> /home/jun/文档/学习文件/ros/代码示例/topic_ws/build/node_demo_pkg/build/lib/node_demo_pkg
+[0.556s] running install
+[0.559s] running install_lib
+[0.567s] creating /home/jun/文档/学习文件/ros/代码示例/topic_ws/install/node_demo_pkg/lib/python3.12/site-packages/node_demo_pkg
+[0.567s] copying /home/jun/文档/学习文件/ros/代码示例/topic_ws/build/node_demo_pkg/build/lib/node_demo_pkg/__init__.py -> /home/jun/文档/学习文件/ros/代码示例/topic_ws/install/node_demo_pkg/lib/python3.12/site-packages/node_demo_pkg
+[0.567s] byte-compiling /home/jun/文档/学习文件/ros/代码示例/topic_ws/install/node_demo_pkg/lib/python3.12/site-packages/node_demo_pkg/__init__.py to __init__.cpython-312.pyc
+[0.567s] running install_data
+[0.567s] creating /home/jun/文档/学习文件/ros/代码示例/topic_ws/install/node_demo_pkg/share/ament_index
+[0.567s] creating /home/jun/文档/学习文件/ros/代码示例/topic_ws/install/node_demo_pkg/share/ament_index/resource_index
+[0.567s] creating /home/jun/文档/学习文件/ros/代码示例/topic_ws/install/node_demo_pkg/share/ament_index/resource_index/packages
+[0.567s] copying resource/node_demo_pkg -> /home/jun/文档/学习文件/ros/代码示例/topic_ws/install/node_demo_pkg/share/ament_index/resource_index/packages
+[0.567s] copying package.xml -> /home/jun/文档/学习文件/ros/代码示例/topic_ws/install/node_demo_pkg/share/node_demo_pkg
+[0.568s] running install_egg_info
+[0.576s] Copying ../../build/node_demo_pkg/node_demo_pkg.egg-info to /home/jun/文档/学习文件/ros/代码示例/topic_ws/install/node_demo_pkg/lib/python3.12/site-packages/node_demo_pkg-0.0.0-py3.12.egg-info
+[0.576s] running install_scripts
+[0.633s] writing list of installed files to '/home/jun/文档/学习文件/ros/代码示例/topic_ws/build/node_demo_pkg/install.log'
+[0.647s] Invoked command in '/home/jun/文档/学习文件/ros/代码示例/topic_ws/src/node_demo_pkg' returned '0': CONDA_PROMPT_MODIFIER=(ros) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/jun/文档/学习文件/ros/代码示例/topic_ws/build/node_demo_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jun/文档/学习文件/ros/代码示例/topic_ws/install/node_demo_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/node_demo_pkg build --build-base /home/jun/文档/学习文件/ros/代码示例/topic_ws/build/node_demo_pkg/build install --record /home/jun/文档/学习文件/ros/代码示例/topic_ws/build/node_demo_pkg/install.log --install-scripts $base/lib/node_demo_pkg --single-version-externally-managed install_data
