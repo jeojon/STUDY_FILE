@@ -1,0 +1,5 @@
+  File "/home/jun/文档/学习文件/ros/代码示例/topic_ws/install/node_demo_pkg/lib/python3.12/site-packages/node_demo_pkg/pydemo.py", line 2
+    from rclpy import rclpy.node
+                           ^
+SyntaxError: invalid syntax
+

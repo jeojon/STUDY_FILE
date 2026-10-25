@@ -1,3 +1,5 @@
+
+
 # Ros2 使用 
 
 ## 1. 基础认知
@@ -107,20 +109,29 @@ A-->Q[setup.py #注册写好的node]
 
 ```python
 import rclpy
-from rclpy import rclpy.node
+from rclpy.node import Node
     
 def main():    
     rclpy.init() # 为通信做初始化工作
     node = Node("pthonnode") # 创建一个节点变量
+    
     node.get_logger().info("woshijun") # 用于获取日志文件 node.get_logger 这个命令后加的是或取得日志的级别,如info, warn等
 
     node.get_logger().info("woshipython")
     node.get_logger().warn("woshipython")
+    
     rclpy.spin(node) # 运行这个节点
-    rclpy.shutdown() # 关闭节点
+    rclpy.destroy_node() # 销毁节点
+     rclpy.shutdown() # 关闭节点
 ```
 
-> get_logger() 对应的日志级别 debug < info < warn < error < fatal
+> 编程接口初始化
+>
+> 初始化节点
+>
+> 实现节点功能
+>
+> 销毁节点并且关闭节点
 
 
 
@@ -250,6 +261,8 @@ auto func3 = [a](){return a + 1;}; //捕获外部变量
 
 ​	*背景：有三种函数，全局函数， 成员函数， lambda函数，调用时有问题，利用函数包装器统一他们*
 
+
+
 ### 2.4 多线程与回调函数
 
 1. cpp
@@ -267,15 +280,53 @@ flowchart LR
 A[publisher]--Topic-->B[subscriber]
 ```
 
-.msg文件定义的消息结构
+- 发布/订阅模型(两个节点进行通信(传输数据),就把发送数据的叫作发布者,接收数据的叫作订阅者)
+  - 订阅者 发布者可以不唯一
+  - 异步通讯机制(不是必须同时发布马上接受)
+  - .msg文件定义的消息结构
+  - 话题是传输消息的桥梁,message(消息)通过两个节点之间的话题进行传递,一个话题可以有多个消息
 
 
 
-## 3.2 案例（通过话题发布小说）
 
 
 
 
+## 4.服务
+
+由于话题之间传输消息是异步的,没有办法即时反馈
+
+有的时候需要"你问我答"的模式,也就是一个节点发布请求,另一个节点反馈位置
+
+```mermaid
+flowchart LR
+A[Server]--response-->B[Client]
+B--request-->A
+```
+
+
+
+- 这种叫客户端/服务器(c/s)模型
+- 同步通讯机制
+- 服务器端唯一,客户端可以不为意
+
+- .srv文件定义消息
+
+
+
+
+
+## 5. 通信接口
+
+ros中有三种常用的通信机制,话题,服务,动作
+
+
+
+
+
+
+
+## 6.动作
 
 
 

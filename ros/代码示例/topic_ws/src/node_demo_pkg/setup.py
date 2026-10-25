@@ -24,7 +24,7 @@ setup(
     },
     entry_points={
         'console_scripts': [
-            "pdemo = node_demo_pkg.pydemo:func"
+            "pdemo = node_demo_pkg.pydemo:main"
         ],
     },
 )
